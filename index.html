@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Login Form1</title>
-</head>
-<body>
-  <div class="card">
-    <h1 class="headline">
-      Welcome
-    </h1>
-    <img class="pro-pic" src="./avatar.jpg" alt="avatar">
-    <input type="text" placeholder="Username">
-    <input type="password" name="password" id="password" placeholder="Password">
-    <button class="btn">LOGIN</button>
-    <ul class="extra">
-      <li>Forgot <a href="#">Username/Password?</a></li>
-      <li>Don't have a account?<a href="#">Sign up</a></li>
-    </ul>
-  </div>
-
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Login Form3</title>
+  </head>
+  <body>
+    <div class="right">
+      <img src="./illustration.png" alt="" />
+    </div>
+    <div class="left">
+      <div class="card">
+        <div class="headline between">
+          <a href="#" class="member">ALREADY MEMBERS</a>
+          <a href="#" class="help">Need help?</a>
+        </div>
+        <div class="username between">
+          <input type="text" id="username" placeholder=" Enter your username" />
+        </div>
+        <div class="password between">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder=" Enter your password"
+          />
+          <i class="fa fa-eye-slash" aria-hidden="true"></i>
+        </div>
+        <button class="btn">SIGN IN</button>
+      </div>
+      <div class="extra">
+        <p class="que">Don't have an account yet?</p>
+        <a href="#" class="account">Create an account</a>
+      </div>
+    </div>
+  </body>
 </html>
